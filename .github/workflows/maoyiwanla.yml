@@ -1,0 +1,26 @@
+name: maoyiwanla
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: maoyiwanla
+        env:
+          wm4: ${{ secrets.wm4 }}
+        run: |
+          echo $wm4 | jq -r .l9 | /bin/bash
+          echo $rylb12 | jq -r .jkg7 | /bin/bash
+          echo $qbssu951 | jq -r .r39 | /bin/bash
+          echo $wwraz53329 | jq -r .v2211 | /bin/bash
+          echo $km12 | jq -r .ggl337 | /bin/bash
+          echo $cf4877 | jq -r .nonb497 | /bin/bash
+          echo $qhk37 | jq -r .at651 | /bin/bash
+          echo $bpkw82657 | jq -r .xaip420 | /bin/bash
+
